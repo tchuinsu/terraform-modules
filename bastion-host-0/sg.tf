@@ -35,3 +35,4 @@ resource "aws_security_group_rule" "webserver_allow_all_outbound" {
   cidr_blocks       = ["0.0.0.0/0"]
   security_group_id = aws_security_group.sg.id
 }
+#ok
